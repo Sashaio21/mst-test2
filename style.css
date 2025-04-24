@@ -60,40 +60,6 @@ h1::after {
 
   
 
-.video-bg {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100vw;
-    height: 100vh;
-    object-fit: cover;
-    z-index: -1;
-  }
-
-.test {
-    width: 100px;
-    height: 100px;
-}
-
-  .outer-block {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    /* justify-content: center;
-    align-items: center; */
-    font-size: 3rem;
-    color: white;
-    background-color: black; /* или любой другой фон */
-    
-    clip-path: polygon(
-        0% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 0%,
-        20px 0%, 20px calc(100% - 50px), calc(100% - 20px) calc(100% - 50px),
-        calc(100% - 20px) 50px, 20px 50px, 20px 0%
-        );
-    mask-repeat: no-repeat;
-    mask-size: 100% 100%;
-    z-index: 1;
-  }
 
 
   .bg-video {
